@@ -8,7 +8,6 @@ use Filament\Pages\Page;
 
 final class Overview extends Page
 {
-    protected static string $view = 'jetstream-bridge-filament::overview';
+    protected string $view = 'jetstream-bridge-filament::overview';
     protected static ?string $title = 'Jetstream Bridge';
 }
-
