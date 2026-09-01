@@ -13,4 +13,3 @@ final class JetstreamBridgeFilamentServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'jetstream-bridge-filament');
     }
 }
-
