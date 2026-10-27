@@ -10,15 +10,5 @@ final class Overview extends Page
 {
     protected string $view = 'jetstream-bridge-filament::overview';
 
-    protected static ?string $slug = 'overview-jetstream-bridge';
-
-    public static function getNavigationLabel(): string
-    {
-        return __('filament.pages.jetstream_bridge');
-    }
-
-    public function getTitle(): string
-    {
-        return __('filament.pages.jetstream_bridge');
-    }
+    protected static ?string $title = 'Jetstream Bridge';
 }
